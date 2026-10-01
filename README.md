@@ -32,7 +32,7 @@ Real-world physical anomalies are mathematically integrated into the control loo
 ## ⚙️ Closed-Loop Architecture & Controller Design
 The system's control architecture involves the plant, reference inputs, and both internal ($d_i$) and external ($d_o$) disturbances.
 
-![Control System Block Diagram](block-diagram.png)
+![block diagram](block diagram.png)
 
 To achieve a target steady-state angular speed of 15 rad/s, a pure gain controller ($K_p = 0.75$) is calculated using the Final Value Theorem (FVT).
 
